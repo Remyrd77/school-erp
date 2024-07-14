@@ -33,7 +33,6 @@ export const FlexBasedDiv = styled.div`
 
 export const TopbarFlex = styled.div`
   background: ${theme.colors.white};
-  width: 99%;
   height: 22%;
   margin-left: 0.6em;
   margin-bottom: 0em;
@@ -43,11 +42,9 @@ export const TopbarFlex = styled.div`
   font-size: ${theme.size.fontDefault};
   font-weight: 400;
   font-family: ${theme.font.fontFamily};
-  /* box-shadow: ${theme.size.btnBoxShadow1}; */
   border-bottom-right-radius: 0.8em;
   border-bottom-left-radius: 0.8em;
   border-bottom: 4px;
-  /* box-shadow: ${theme.size.topBarBoxShadow}; */
   display: flex;
   flex-direction: row;
 

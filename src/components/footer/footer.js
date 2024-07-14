@@ -8,10 +8,7 @@ export const FooterFlexDiv = styled.div`
 
 export const Footer = styled.div`
   background: ${theme.colors.white};
-  width: 98%;
-  height: 9%;
-  margin-left: 0.8em;
-  margin-top: 1.2em;
+  height: auto;
   text-align: center;
   align-content: center;
   color: ${theme.colors.gray};
@@ -25,6 +22,10 @@ export const Footer = styled.div`
   box-shadow: ${theme.size.inputBoxShadowWhenHover1};
   display: flex;
   flex-direction: row;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
 
   /* ${(props) =>
     props.layout &&
