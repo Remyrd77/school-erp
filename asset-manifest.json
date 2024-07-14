@@ -1,31 +1,28 @@
 {
   "files": {
     "main.css": "/school-erp/static/css/main.f613113c.chunk.css",
-    "main.js": "/school-erp/static/js/main.ea6e6159.chunk.js",
-    "main.js.map": "/school-erp/static/js/main.ea6e6159.chunk.js.map",
+    "main.js": "/school-erp/static/js/main.39a4d24f.chunk.js",
+    "main.js.map": "/school-erp/static/js/main.39a4d24f.chunk.js.map",
     "runtime-main.js": "/school-erp/static/js/runtime-main.a1210d7e.js",
     "runtime-main.js.map": "/school-erp/static/js/runtime-main.a1210d7e.js.map",
     "static/css/2.4c0dc63d.chunk.css": "/school-erp/static/css/2.4c0dc63d.chunk.css",
-    "static/js/2.8122fdf9.chunk.js": "/school-erp/static/js/2.8122fdf9.chunk.js",
-    "static/js/2.8122fdf9.chunk.js.map": "/school-erp/static/js/2.8122fdf9.chunk.js.map",
+    "static/js/2.7c8b5b82.chunk.js": "/school-erp/static/js/2.7c8b5b82.chunk.js",
+    "static/js/2.7c8b5b82.chunk.js.map": "/school-erp/static/js/2.7c8b5b82.chunk.js.map",
     "index.html": "/school-erp/index.html",
-    "precache-manifest.526de62f5f4cd57a249f1e3a187d6126.js": "/school-erp/precache-manifest.526de62f5f4cd57a249f1e3a187d6126.js",
+    "precache-manifest.1231d737807f053dd80e9684a2be9eb5.js": "/school-erp/precache-manifest.1231d737807f053dd80e9684a2be9eb5.js",
     "service-worker.js": "/school-erp/service-worker.js",
     "static/css/2.4c0dc63d.chunk.css.map": "/school-erp/static/css/2.4c0dc63d.chunk.css.map",
     "static/css/main.f613113c.chunk.css.map": "/school-erp/static/css/main.f613113c.chunk.css.map",
-    "static/media/bell-regular-white.svg": "/school-erp/static/media/bell-regular-white.3ef23efc.svg",
     "static/media/bell-regular.svg": "/school-erp/static/media/bell-regular.ac874803.svg",
-    "static/media/envelope-regular-white.svg": "/school-erp/static/media/envelope-regular-white.5b2bbe71.svg",
     "static/media/envelope-regular.svg": "/school-erp/static/media/envelope-regular.21c1e3b2.svg",
     "static/media/school.jpg": "/school-erp/static/media/school.fad4640b.jpg",
-    "static/media/steps.png": "/school-erp/static/media/steps.58c3363a.png",
     "static/media/stjohns.png": "/school-erp/static/media/stjohns.3698eb7c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a1210d7e.js",
     "static/css/2.4c0dc63d.chunk.css",
-    "static/js/2.8122fdf9.chunk.js",
+    "static/js/2.7c8b5b82.chunk.js",
     "static/css/main.f613113c.chunk.css",
-    "static/js/main.ea6e6159.chunk.js"
+    "static/js/main.39a4d24f.chunk.js"
   ]
 }
