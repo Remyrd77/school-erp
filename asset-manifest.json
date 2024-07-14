@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/frontend-schoolmanagementsystem/static/css/main.f613113c.chunk.css",
+    "main.js": "/frontend-schoolmanagementsystem/static/js/main.3fa3dc4c.chunk.js",
+    "main.js.map": "/frontend-schoolmanagementsystem/static/js/main.3fa3dc4c.chunk.js.map",
+    "runtime-main.js": "/frontend-schoolmanagementsystem/static/js/runtime-main.db08b5cd.js",
+    "runtime-main.js.map": "/frontend-schoolmanagementsystem/static/js/runtime-main.db08b5cd.js.map",
+    "static/css/2.4c0dc63d.chunk.css": "/frontend-schoolmanagementsystem/static/css/2.4c0dc63d.chunk.css",
+    "static/js/2.d292159b.chunk.js": "/frontend-schoolmanagementsystem/static/js/2.d292159b.chunk.js",
+    "static/js/2.d292159b.chunk.js.map": "/frontend-schoolmanagementsystem/static/js/2.d292159b.chunk.js.map",
+    "index.html": "/frontend-schoolmanagementsystem/index.html",
+    "precache-manifest.f8a683ec30e1db9ae132c9c27d57994d.js": "/frontend-schoolmanagementsystem/precache-manifest.f8a683ec30e1db9ae132c9c27d57994d.js",
+    "service-worker.js": "/frontend-schoolmanagementsystem/service-worker.js",
+    "static/css/2.4c0dc63d.chunk.css.map": "/frontend-schoolmanagementsystem/static/css/2.4c0dc63d.chunk.css.map",
+    "static/css/main.f613113c.chunk.css.map": "/frontend-schoolmanagementsystem/static/css/main.f613113c.chunk.css.map",
+    "static/media/bell-regular-white.svg": "/frontend-schoolmanagementsystem/static/media/bell-regular-white.3ef23efc.svg",
+    "static/media/bell-regular.svg": "/frontend-schoolmanagementsystem/static/media/bell-regular.ac874803.svg",
+    "static/media/envelope-regular-white.svg": "/frontend-schoolmanagementsystem/static/media/envelope-regular-white.5b2bbe71.svg",
+    "static/media/envelope-regular.svg": "/frontend-schoolmanagementsystem/static/media/envelope-regular.21c1e3b2.svg",
+    "static/media/school.jpg": "/frontend-schoolmanagementsystem/static/media/school.fad4640b.jpg",
+    "static/media/steps.png": "/frontend-schoolmanagementsystem/static/media/steps.58c3363a.png",
+    "static/media/stjohns.png": "/frontend-schoolmanagementsystem/static/media/stjohns.3698eb7c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db08b5cd.js",
+    "static/css/2.4c0dc63d.chunk.css",
+    "static/js/2.d292159b.chunk.js",
+    "static/css/main.f613113c.chunk.css",
+    "static/js/main.3fa3dc4c.chunk.js"
+  ]
+}
