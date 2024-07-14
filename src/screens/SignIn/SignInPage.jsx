@@ -22,7 +22,9 @@ function SignInPage() {
       passwordRef.current.value
     )
       .then((authUser) => {
-        console.log(authUser);
+        localStorage.setItem("userToken", authUser.user.accessToken);
+        history.push("/");
+        window.location.reload();
       })
       .catch((e) => {
         alert(e.message);

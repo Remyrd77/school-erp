@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { HashRouter as RouteIt, Switch, Route } from "react-router-dom";
+import {
+  HashRouter as RouteIt,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import PrincipalDashboard from "../screens/student/PrincipalDashboard";
 import ViewProfile from "../screens/student/profile/ViewProfile";
 import EditProfile from "../screens/student/profile/EditProfile";
@@ -19,6 +24,7 @@ class ChildRouter extends Component {
           <Route path="/student/promotion" component={AddClass} />
           <Route path="/student/admission/manage" component={ManageAdmission} />
           {/* <Route path="/student/promotion" component={} /> */}
+          <Redirect exact from="/student" to="/student/dashboard" />
         </Switch>
       </RouteIt>
     );

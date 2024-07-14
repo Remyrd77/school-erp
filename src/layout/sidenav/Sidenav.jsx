@@ -138,14 +138,6 @@ export default class Sidenav extends Component {
   render() {
     return (
       <Sidebar>
-        <SidenavCard>
-          <img
-            style={{ height: "99px", padding: "0.8em" }}
-            src={Img}
-            alt={"sidenavimg"}
-          ></img>
-        </SidenavCard>
-
         <Navigator>
           <NavBox
             isChecked={this.state.isChecked}

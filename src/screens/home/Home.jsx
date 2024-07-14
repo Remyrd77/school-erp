@@ -4,9 +4,7 @@ import HomeContainer from "../../components/containers/HomeContainer";
 import HomeIcons from "../../components/icon/home/HomeIcons";
 import Heading3 from "../../components/typography/Heading3";
 
-import TopnavFlex from "../../layout/topnav/TopnavFlex";
 import theme from "../../theme/theme";
-import FooterFlex from "../../layout/footer/FooterFlex";
 import { Link } from "react-router-dom";
 import { FlexedRow, FlexedCol } from "./FlexedRow";
 
@@ -42,7 +40,6 @@ export default class Home extends Component {
   render() {
     return (
       <div style={{ background: theme.colors.base, marginBottom: "0.8em" }}>
-        <TopnavFlex home />
         <HomeContainer>
           <FlexedRow>
             {this.src.map(({ id, name, link }, idx) => (
@@ -61,8 +58,6 @@ export default class Home extends Component {
                 </Link>
               </FlexedCol>
             ))}
-          </FlexedRow>
-          <FlexedRow>
             {/* Sports */}
             <FlexedCol>
               <BasicCard>
@@ -114,7 +109,6 @@ export default class Home extends Component {
             </FlexedCol>
           </FlexedRow>
         </HomeContainer>
-        <FooterFlex />
       </div>
     );
   }

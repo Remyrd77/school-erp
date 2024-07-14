@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import theme from '../../theme/theme';
+import styled from "styled-components";
+import theme from "../../theme/theme";
 
 const PasswordInput = styled.input.attrs({
-    type: props => props.show ? 'text' : 'password'
+  type: (props) => (props.show ? "text" : "password"),
 })`
     color: ${theme.colors.gray};
     outline: ${theme.size.inputOutline};
@@ -34,5 +34,5 @@ const PasswordInput = styled.input.attrs({
     /* temporary use */ 
     margin: 2em;
   }
-`
+`;
 export default PasswordInput;

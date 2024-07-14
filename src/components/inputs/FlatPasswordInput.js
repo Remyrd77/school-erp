@@ -1,8 +1,8 @@
-import styled from 'styled-components';
-import theme from '../../theme/theme';
+import styled from "styled-components";
+import theme from "../../theme/theme";
 
 const FlatPasswordInput = styled.input.attrs({
-    type: props => props.show ? 'text' : 'password'
+  type: (props) => (props.show ? "text" : "password"),
 })`
     color: ${theme.colors.gray};
     outline: ${theme.size.inputOutline};
@@ -36,8 +36,8 @@ const FlatPasswordInput = styled.input.attrs({
         box-shadow: ${theme.size.inputBoxShadowWhenHover1};
     }
 
-    /* temporary use */ 
+    /* temporary use */
     margin: 2em;
   }
-`
+`;
 export default FlatPasswordInput;
